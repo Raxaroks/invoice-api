@@ -1,0 +1,8 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: testinvoices
+  username: developer
+  password: UQpaA9TA
+  host: devtestdatabase.contalink.com
+  port: 5432  

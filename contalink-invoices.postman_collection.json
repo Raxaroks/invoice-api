@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "f7112ba3-c1c0-4b9b-b746-af1d51c48a53",
+		"name": "contalink-invoices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15525951"
+	},
+	"item": [
+		{
+			"name": "invoices",
+			"item": [
+				{
+					"name": "find invoices on a given date range",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"start\": \"2022-01-17T09:57:14.000Z\",\r\n    \"end\": \"2022-01-27T09:38:52.000Z\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/v1/invoices",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"v1",
+								"invoices"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
